@@ -5,3 +5,11 @@
     language: script
     files: \.tf$
     exclude: \.terraform\/.*$
+-   id: terraform_validate
+    name: Terraform validate
+    description: Validates all Terraform configuration files
+    entry: terrraform_validate.sh
+    language: script
+    files: \.tf$
+    exclude: \.terraform\/.*$
+
